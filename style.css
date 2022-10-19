@@ -1,0 +1,46 @@
+.tartalom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+body{
+
+background-color:black;
+    color:white;
+
+}
+img{
+    max-width: 350px;
+    max-width: 40%;
+}
+#menu ul{
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+#container{
+    margin:auto;
+    max-width: 60%;
+}
+#menu a:link{
+text-decoration: none;
+color:white;
+}
+#masodik{
+
+    border-top: 0px;
+    border-bottom: 0px;
+border-style: solid;
+border-color: red;
+}
+.cikk{
+    margin:5px 5px 5px 5px;
+}
+.cikk{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.cikk li{
+    text-align: left;
+}
